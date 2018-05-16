@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style/main.css" />
+     <script src="player.js"></script>
+		<title>Pliko radio - Alpha 0.0.2</title>
+	</head>
+	<body>
+		<div class="player">
+				<audio id="track" src="" type="audio/mpeg"></audio>
+				<h1 id="songName"></h1>
+				<input type="image" src="style/img/play.png" class="button-play" onclick="play()">
+				<input type="image" src="style/img/pause.png" class="button-pause" onclick="pause()">
+				<input type="image" src="style/img/stop.png" class="button-stop" onclick="stop()">
+				<input type="image" src="style/img/Next.png" class="button-next" onclick="getSong()"><br>
+				<input type="range" id="volumeSlider" onchange="volumeChanger()" step="0.05" min="0" max="1" value="1">
+				<input type="image" src="style/img/Unmute.png" id="button-mute" onclick="mute()">
+				<div id="time"></div>
+		</div>
+		
+		
+		<script>
+      var player = document.getElementById('track');			
+		</script>
+	</body>
+</html>
