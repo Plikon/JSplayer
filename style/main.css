@@ -30,7 +30,7 @@ body{
 	
 }
 
-.button-play{
+#button-play{
 	border-style: solid;
 	height: 40px;
 	border-radius: 50%;
@@ -40,15 +40,6 @@ body{
 }
 
 .button-stop{
-	border-style: solid;
-	height: 40px;
-	border-radius: 50%;
-	padding: 3px;
-	background: red;
-	margin-right: 1%;
-}
-
-.button-pause{
 	border-style: solid;
 	height: 40px;
 	border-radius: 50%;

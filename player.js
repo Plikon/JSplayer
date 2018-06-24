@@ -28,15 +28,15 @@
 			function play(){
 				player.play();
 				playCheck=1;
-				document.getElementById("button-play").setAttribute("onclick","pause()");
-				document.getElementById("button-play").src = "style/img/pause.png";
+        document.getElementById("button-play").src = "style/img/pause.png";
+				document.getElementById("button-play").setAttribute( "onclick","pause()" );
 			};
 			
 			function pause(){
 				player.pause();
 				playCheck=0;
-				document.getElementById("button-play").setAttribute("onclick","play()");
-				document.getElementById("button-play").src = "style/img/play.png";
+        document.getElementById("button-play").src = "style/img/play.png";
+				document.getElementById("button-play").setAttribute( "onclick","play()" );
 				
 			};
 			
